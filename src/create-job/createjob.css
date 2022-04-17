@@ -1,0 +1,87 @@
+.postJob{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000814;
+}
+
+.card{
+    height: 65vh;
+    width: 90%;
+    max-width: 650px;
+    background-color: #ededed;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.job-title{
+    text-align: left;
+    color: #000814;
+    font-size: 34px;
+    padding: 20px 20px;
+}
+
+.inputs{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0px 20px;
+}
+
+.field{
+    max-width: 290px;
+    width: 100%;
+    font-size: 20px;
+    padding: 16px 12px;
+    background-color: #c4c4c4;
+    border-radius: 8px;
+    border: none;
+    transition: 300ms;
+}
+
+::-webkit-input-placeholder{
+    font-size: 20px;
+}
+
+.description{
+    width: 100%;
+    max-width: 100%;
+    height: 150px;
+}
+
+.post-button{
+    cursor: pointer;
+    padding: 16px;
+    width: 150px;
+    margin: 16px 20px;
+    margin-left: auto;
+    border-radius: 8px;
+    border: none;
+    background-color: #00509d;
+    font-size: 16px;
+    color: #ededed;
+    font-weight: 500;
+    transition: 300ms;
+}
+
+.post-button:hover{
+    background-color: #1e96fc;
+}
+
+@media screen and (max-width: 480px) {
+    .card{
+        height: 70vh;
+    }
+    .field{
+        max-width: 100%;
+    }
+}
+
+
